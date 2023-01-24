@@ -1,0 +1,69 @@
+
+.port-1{
+    background-color: lightgreen;
+    padding: 6rem 0;
+    height: 350vh;
+}
+.sub{
+    height: 80rem;
+    width: 100%;;
+    display: inline-block;
+}
+.port-prjt{
+    height: 40rem;
+    width: 100%;
+}
+.cont-1{
+    height: 40rem;
+    width: 100%;
+    display: inline-block;
+}
+.name-port h1{
+    text-align: center;
+    font-size: 3.5rem;
+}
+.prj img{
+    height: 30rem;
+    width: 25%;
+    border-radius: 50%;
+    margin-top: 5%;
+    margin-left: 10%;
+    float: left;
+    cursor: pointer;
+}
+.prj img:hover{
+    opacity: 0.6;
+}
+.prj a{
+    position: absolute;
+    text-decoration: none;
+    color: darkblue;
+}
+.prj span{
+    font-size: 3rem;
+    margin-top: 3%;
+}
+.fa-brands{
+    font-size: 3rem;
+    margin-left: 5%;
+}
+#brds{
+    font-size: 3rem;
+    margin-left: 2%;
+}
+.prj button{
+    margin-left: 40%;
+}
+.atg{
+    float: right;
+    margin-top: 8%;
+    margin-right: 35%;
+}
+.atg p{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+#back
+{
+    color: #f0f0e6;
+}

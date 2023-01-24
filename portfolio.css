@@ -1,0 +1,325 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+    background-color: hotpink;
+    height: 100vh;
+}
+
+.container{
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;   
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    height: 64px; 
+}
+.menu-items{
+    display: flex;
+    margin-left: 60%;
+}
+.menu-items li{
+    list-style: none;
+    padding: 1rem;
+}
+/* ///////////////////////////////////////////// */
+.menu-items a{
+    text-decoration: none;
+    color: #f0f0e6;
+    font-size: 2.5rem;
+    padding: 2rem;
+}
+
+.menu-items a:hover{
+    border-bottom: 2px solid #f0f0e6;
+}
+
+.home-content .name{
+    position:absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    color: #07374a;
+    width: 100%;
+    text-align: center;
+}
+
+.home-content .name h1{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.home-content .name p{
+    color: #f0f0e6;
+    font-size: 2rem;
+}
+
+.angle-down-icon{
+    position: absolute;
+    left: 50%;
+    font-size: 3rem;
+    top: 70%;
+}
+
+.angle-down-icon a{
+    text-decoration: none;
+    color: #07374a;
+}
+.angle-down-icon a:hover{
+    color: white;
+    opacity: 0.7;
+}
+
+.about-me{
+    background-color: #07374a;
+    padding: 6rem 0;
+    height: 200vh;
+}
+
+.about-me .about-heading{
+    color: #25b79f;
+    font-size: 3rem;
+    text-align: center;
+}
+.about-me img{
+    border-radius: 50%;
+    height: 25rem;
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 3%;
+} 
+.about-me p{
+    color: #f0f0e6;
+    font-size: 2rem;
+    margin-top: 2%;
+}
+
+.work-area{
+    margin-top: 10%;
+    text-align: center;
+}
+.work-area a{
+    text-decoration: none;
+    color: #f0f0e6;
+}
+.work-area a:hover{
+    color: aqua;
+}
+.fa-solid{
+    margin-top: 2%;
+    font-size: 2.5rem;
+    transition: 1s;
+}
+.fa-solid:hover{
+    transform: rotate(360deg);
+    color: whitesmoke;
+}
+.skills-heading{
+    color: #f0f0e6;
+    text-align: center;
+    margin-top: 5%;
+    letter-spacing: 1px;
+}
+
+.hobbies li{
+    text-align: center;
+    color: #f0f0e6;
+    font-size: 2.3rem;
+}
+
+.port{
+    background-color: lightgreen;
+    padding: 6rem 0;
+    height: 200vh;
+}
+.sub{
+    height: 80rem;
+    width: 100%;;
+    display: inline-block;
+}
+.port-prjt{
+    height: 40rem;
+    width: 100%;
+}
+.cont-1{
+    height: 40rem;
+    width: 100%;
+    display: inline-block;
+}
+.name-port h1{
+    text-align: center;
+    font-size: 3.5rem;
+}
+.prj img{
+    height: 30rem;
+    width: 25%;
+    border-radius: 50%;
+    margin-top: 5%;
+    margin-left: 10%;
+    float: left;
+    cursor: pointer;
+}
+.prj img:hover{
+    opacity: 0.6;
+}
+.prj a{
+    position: absolute;
+    text-decoration: none;
+    color: darkblue;
+}
+.prj span{
+    font-size: 3rem;
+    margin-top: 3%;
+}
+.fa-brands{
+    font-size: 3rem;
+    margin-left: 5%;
+}
+#brds{
+    font-size: 3rem;
+    margin-left: 2%;
+}
+.prj button{
+    margin-left: 40%;
+}
+.atg{
+    float: right;
+    margin-top: 8%;
+    margin-right: 35%;
+}
+.atg p{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.footer{
+    height: 100vh;
+    background-color: #07374a;
+    padding: 6rem 0;
+}
+
+.c-name{
+    color: #f0f0e6;
+    text-align: center;
+    margin-top: 10%;
+}
+.c-name a{
+    font-size: 2rem;
+    text-decoration: none;
+    color: aqua;
+    opacity: 0.7;
+}
+.foot-p{
+    margin-top: 3%;
+    color:#f0f0e6;
+
+}
+
+.icon{
+    color: white;
+    margin-top: 5%;
+}
+
+.icon .fa-brands span{
+    font-size: 1.5rem;
+    margin-left: 5px;
+    line-height: 5px;
+}
+
+.cont-1 img{
+    height: 30rem;
+    width: 25%;
+    border-radius: 50%;
+}
+
+.cont-2{
+    height: 30rem;
+    width: 100%;
+    margin-top: 5%;
+}
+.cont-cont-2{
+    width: 40%;
+    float: left;
+}
+.cont-cont-2 img{
+    border-radius: 50%;
+    height: 30rem;
+    width: 60%;
+    margin-left: 15rem;
+}
+.cont-cont-22
+{
+    width: 60%;
+    float: right;
+}
+.cont-cont-22 p{
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-top: 8%;
+}
+
+.icos{
+    margin-left: 35%; 
+    margin-top: 5%;
+}
+#ic{
+    color: #f0f0e6;
+    transition: 2s ;
+}
+#ic:hover{
+    transform: rotate(360deg);
+    box-shadow: 3px  2px 8px 2px orange;
+}
+
+@media only screen and (max-width: 800px)
+{
+    .navbar{
+        width: 100%;
+        display: none;
+    }
+    .about-me img{
+        height: 20rem;
+        width: 50%;
+        margin-left: 25%;
+    }
+    cont-2{
+        height: 30rem;
+        width: 100%;
+        margin-top: 5%;
+    }
+    .cont-cont-2{
+        width: 60%;
+        float: left;
+    }
+    .cont-cont-2 img{
+        border-radius: 50%;
+        height: 30rem;
+        width: 100%;
+        margin-left: 10rem;
+    }
+    .cont-cont-22
+    {
+        display: none;
+    }
+    .c-name{
+        color: #f0f0e6;
+        text-align: center;
+        margin-top: 45%;
+    }
+    .icos{
+        margin-left: 20%; 
+        margin-top: 5%;
+    }
+    .fa-solid{
+        margin-top: 12%;
+        font-size: 2.5rem;
+        transition: 1s;
+    }
+}
